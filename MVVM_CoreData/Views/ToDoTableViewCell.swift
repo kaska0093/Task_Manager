@@ -14,7 +14,7 @@ class ToDoTableViewCell: UITableViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 16, weight: .black)
         label.numberOfLines = 0
-        label.lineBreakMode = .byWordWrapping // перенос текста в label
+        label.lineBreakMode = .byWordWrapping
         return label
     }()
     
@@ -51,6 +51,7 @@ class ToDoTableViewCell: UITableViewCell {
     }
     
     func setupConstraints() {
+        
         NSLayoutConstraint.activate([
             taskNameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 8),
             taskNameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),

@@ -14,7 +14,6 @@
 		1159E6212B58F816003AFB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1159E6202B58F816003AFB74 /* Assets.xcassets */; };
 		1159E6242B58F816003AFB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1159E6222B58F816003AFB74 /* LaunchScreen.storyboard */; };
 		1159E62D2B58FA18003AFB74 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1159E62B2B58FA18003AFB74 /* CoreDataModel.xcdatamodeld */; };
-		1163F5982B5B855D00A0A8AA /* Animation - 1705725296981.json in Resources */ = {isa = PBXBuildFile; fileRef = 1163F5972B5B855D00A0A8AA /* Animation - 1705725296981.json */; };
 		1163F59B2B5B98A000A0A8AA /* ToDoListViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163F59A2B5B98A000A0A8AA /* ToDoListViewControllerDataSource.swift */; };
 		1163F59D2B5B98E800A0A8AA /* ToDoListViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163F59C2B5B98E800A0A8AA /* ToDoListViewControllerDelegate.swift */; };
 		1169430C2B5A40350046EC53 /* AddNewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169430B2B5A40350046EC53 /* AddNewTaskViewController.swift */; };
@@ -37,8 +36,6 @@
 		1159E6232B58F816003AFB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1159E6252B58F816003AFB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1159E62C2B58FA18003AFB74 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
-		1163F5972B5B855D00A0A8AA /* Animation - 1705725296981.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Animation - 1705725296981.json"; path = "../../../../../../Downloads/Animation - 1705725296981.json"; sourceTree = "<group>"; };
-		1163F5992B5B857400A0A8AA /* Animation - 1705725296981.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1705725296981.json"; sourceTree = "<group>"; };
 		1163F59A2B5B98A000A0A8AA /* ToDoListViewControllerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewControllerDataSource.swift; sourceTree = "<group>"; };
 		1163F59C2B5B98E800A0A8AA /* ToDoListViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewControllerDelegate.swift; sourceTree = "<group>"; };
 		1169430B2B5A40350046EC53 /* AddNewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTaskViewController.swift; sourceTree = "<group>"; };
@@ -110,7 +107,6 @@
 		11C3803F2B59E8E800A19A5D /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				1163F5972B5B855D00A0A8AA /* Animation - 1705725296981.json */,
 				1159E6172B58F809003AFB74 /* AppDelegate.swift */,
 				1159E6192B58F809003AFB74 /* SceneDelegate.swift */,
 			);
@@ -140,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				1159E61B2B58F809003AFB74 /* ToDoListViewController.swift */,
+				1163F59A2B5B98A000A0A8AA /* ToDoListViewControllerDataSource.swift */,
+				1163F59C2B5B98E800A0A8AA /* ToDoListViewControllerDelegate.swift */,
 				1169430B2B5A40350046EC53 /* AddNewTaskViewController.swift */,
 			);
 			path = ViewControllers;
@@ -148,11 +146,8 @@
 		11C380432B59F07F00A19A5D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1163F5992B5B857400A0A8AA /* Animation - 1705725296981.json */,
 				1159E62B2B58FA18003AFB74 /* CoreDataModel.xcdatamodeld */,
 				11C3804A2B5A072E00A19A5D /* CoreDataManager.swift */,
-				1163F59A2B5B98A000A0A8AA /* ToDoListViewControllerDataSource.swift */,
-				1163F59C2B5B98E800A0A8AA /* ToDoListViewControllerDelegate.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -235,7 +230,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1159E6242B58F816003AFB74 /* LaunchScreen.storyboard in Resources */,
-				1163F5982B5B855D00A0A8AA /* Animation - 1705725296981.json in Resources */,
 				1159E6212B58F816003AFB74 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

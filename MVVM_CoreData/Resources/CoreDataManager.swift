@@ -59,7 +59,7 @@ class CoreDataManager {
         task.id = UUID()
         task.isDone = false
         task.copletedOn = dueOn.advanced(by: 100000)
-        task.isFavourite = false //---------------------------------
+        task.isFavourite = false
         saveContext()
     }
     

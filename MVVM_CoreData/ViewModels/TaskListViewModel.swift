@@ -13,6 +13,7 @@ class TaskListViewModel {
     
     init() {
         getAll()
+        print(tasks)
     }
     
     var numberOfTasks: Int {
@@ -21,14 +22,26 @@ class TaskListViewModel {
     
     func getAll() {
         tasks = CoreDataManager.shared.getAll().map(TaskViewModel.init)
-        //преобразование в массив TaskViewModel
+
+        tasks = sortTask(tasks: self.tasks)
+    }
+    func sortTask(tasks: [TaskViewModel]) -> [TaskViewModel] {
+        let sortedTasks = tasks.sorted(by: { (task1, task2) in
+            return task1.copmleted && !task2.copmleted
+        })
+        return sortedTasks
     }
     
     func numberOfRowrs(by section: Int) -> Int {
+
         if section == 0 {
             return 1
+        } else if section == 1 {
+            return tasks.filter { $0.copmleted }.count
+        } else {
+            return tasks.filter { !$0.copmleted }.count
         }
-        return numberOfTasks
+        //return numberOfTasks
     }
     
     func getTasksByType() -> (complete: Int, incomplete: Int) {
@@ -41,8 +54,10 @@ class TaskListViewModel {
         return (completedCount, inCompletedCount)
     }
     
-    func task(by index: Int) -> TaskViewModel {
-        tasks[index]
+    func currentTask(by index: Int) -> TaskViewModel {
+        print(index)
+        print(tasks)
+        return tasks[index]
     }
     
     func toogleCompleted(task: TaskViewModel) {

@@ -15,6 +15,10 @@ struct TaskViewModel {
         self.task = task
     }
     
+    var copmleted: Bool {
+        task.isDone
+    }
+    
     var id: UUID {
         task.id ?? UUID()
     }
@@ -30,7 +34,5 @@ struct TaskViewModel {
         task.copletedOn ?? Date()
     }
     
-    var copmleted: Bool {
-        task.isDone
-    }
+
 }
