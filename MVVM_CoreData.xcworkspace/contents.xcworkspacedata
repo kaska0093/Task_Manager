@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:MVVM_CoreData.xcodeproj">
+      location = "group:/Users/nikita/Desktop/MVVM_CoreData/Task Manager.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

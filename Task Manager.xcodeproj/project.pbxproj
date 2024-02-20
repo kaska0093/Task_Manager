@@ -28,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		110986672B5B7CCA00F765F0 /* CelebrationAnimaionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrationAnimaionView.swift; sourceTree = "<group>"; };
-		1159E6142B58F809003AFB74 /* MVVM_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1159E6142B58F809003AFB74 /* Task Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1159E6172B58F809003AFB74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1159E6192B58F809003AFB74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1159E61B2B58F809003AFB74 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		1159E60B2B58F809003AFB74 = {
 			isa = PBXGroup;
 			children = (
-				1159E6162B58F809003AFB74 /* MVVM_CoreData */,
+				1159E6162B58F809003AFB74 /* Task Manager */,
 				1159E6152B58F809003AFB74 /* Products */,
 				24F42BDD5C1B3E28DE21A864 /* Pods */,
 				BDACD7B0D32827F58685F2F6 /* Frameworks */,
@@ -75,12 +75,12 @@
 		1159E6152B58F809003AFB74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1159E6142B58F809003AFB74 /* MVVM_CoreData.app */,
+				1159E6142B58F809003AFB74 /* Task Manager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1159E6162B58F809003AFB74 /* MVVM_CoreData */ = {
+		1159E6162B58F809003AFB74 /* Task Manager */ = {
 			isa = PBXGroup;
 			children = (
 				1169430D2B5A4C710046EC53 /* Views */,
@@ -91,7 +91,7 @@
 				11C380402B59E91400A19A5D /* Supporting Files */,
 				11C3803F2B59E8E800A19A5D /* Application */,
 			);
-			path = MVVM_CoreData;
+			path = "Task Manager";
 			sourceTree = "<group>";
 		};
 		1169430D2B5A4C710046EC53 /* Views */ = {
@@ -172,9 +172,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1159E6132B58F809003AFB74 /* MVVM_CoreData */ = {
+		1159E6132B58F809003AFB74 /* Task Manager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1159E6282B58F816003AFB74 /* Build configuration list for PBXNativeTarget "MVVM_CoreData" */;
+			buildConfigurationList = 1159E6282B58F816003AFB74 /* Build configuration list for PBXNativeTarget "Task Manager" */;
 			buildPhases = (
 				495D1EC96FEC32A918B1CF9E /* [CP] Check Pods Manifest.lock */,
 				1159E6102B58F809003AFB74 /* Sources */,
@@ -186,9 +186,9 @@
 			);
 			dependencies = (
 			);
-			name = MVVM_CoreData;
+			name = "Task Manager";
 			productName = MVVM_CoreData;
-			productReference = 1159E6142B58F809003AFB74 /* MVVM_CoreData.app */;
+			productReference = 1159E6142B58F809003AFB74 /* Task Manager.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1159E60F2B58F809003AFB74 /* Build configuration list for PBXProject "MVVM_CoreData" */;
+			buildConfigurationList = 1159E60F2B58F809003AFB74 /* Build configuration list for PBXProject "Task Manager" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,7 +219,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1159E6132B58F809003AFB74 /* MVVM_CoreData */,
+				1159E6132B58F809003AFB74 /* Task Manager */,
 			);
 		};
 /* End PBXProject section */
@@ -443,7 +443,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 45KC6823ML;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVVM_CoreData/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Task Manager/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -472,7 +472,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 45KC6823ML;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVVM_CoreData/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Task Manager/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -494,7 +494,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1159E60F2B58F809003AFB74 /* Build configuration list for PBXProject "MVVM_CoreData" */ = {
+		1159E60F2B58F809003AFB74 /* Build configuration list for PBXProject "Task Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1159E6262B58F816003AFB74 /* Debug */,
@@ -503,7 +503,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1159E6282B58F816003AFB74 /* Build configuration list for PBXNativeTarget "MVVM_CoreData" */ = {
+		1159E6282B58F816003AFB74 /* Build configuration list for PBXNativeTarget "Task Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1159E6292B58F816003AFB74 /* Debug */,
