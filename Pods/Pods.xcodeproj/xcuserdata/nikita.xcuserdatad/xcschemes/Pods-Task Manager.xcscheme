@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6387D680472B4CFEFBB042C25BF6F7C7"
-               BuildableName = "Pods_MVVM_CoreData.framework"
-               BlueprintName = "Pods-MVVM_CoreData"
+               BlueprintIdentifier = "D96C779B78A6D5992FAD86B96F32E881"
+               BuildableName = "Pods_Task_Manager.framework"
+               BlueprintName = "Pods-Task Manager"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

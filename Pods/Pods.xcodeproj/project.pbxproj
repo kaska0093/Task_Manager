@@ -32,9 +32,9 @@
 		1175A420ACF7E5A17D34C8DEBA087C09 /* LottieAnimationViewInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F1B95D4BF1AE4EA8C4CAE77258FFD /* LottieAnimationViewInitializers.swift */; };
 		15624020210A40197E7950BF02B7999E /* CompatibilityTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280D46AFF2F87DE4B157A9F055BA88E9 /* CompatibilityTracker.swift */; };
 		167078C5CC5A53AF1F38EDE70B0D26A9 /* SwiftUIMeasurementContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D8B8E1171991613408E4C491D960E /* SwiftUIMeasurementContainer.swift */; };
-		17A3443FD658876A3A4E50627C493CA6 /* Pods-MVVM_CoreData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 316A7D1646B6B68F98CCB7E7F5CE589E /* Pods-MVVM_CoreData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18A3D165969EE6885D947DF1B5578FBE /* StyleIDProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA63D60CC31F30E2F94DFA0F66E2F06 /* StyleIDProviding.swift */; };
 		1A5605B3A821209B4ED6C5FCAAF119D4 /* AnimationTextProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B645AF723A2DFDF8AECF0820EDA898 /* AnimationTextProvider.swift */; };
+		1B926C9A6A7763225FADAA6B2BA10706 /* Pods-Task Manager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32748C0664E4E4BE6D5174D1B3A316C4 /* Pods-Task Manager-dummy.m */; };
 		1EB365914BA428C52DBB32254173CDD4 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59A7358E5B521DEBF527615F68F33A /* RoundedCorners.swift */; };
 		1EBDE8FDCAB6F493419D0BC29B2FA5BE /* CoreAnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BD7650FA969B4FB528172632B077E8 /* CoreAnimationLayer.swift */; };
 		1F68CF15045B294A166AE26583452D22 /* RectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973D56AEF41097905678F8D7A59A3A2 /* RectNode.swift */; };
@@ -54,7 +54,6 @@
 		2B2C5B2F094CD21B0ECDC5F12CE87386 /* LottieAnimationHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87FB75A36BC89CCEF3029C8E267419 /* LottieAnimationHelpers.swift */; };
 		2BBD1F114111344314A3B6CC3BD4736C /* StrokeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3B437988BCD8BF1F39475E0E588C1 /* StrokeAnimation.swift */; };
 		2C6C13D3152D6F4816A307294E5B73BC /* InterpolatableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C20D94A99B4F1C98EAC4F943B77A6D /* InterpolatableExtensions.swift */; };
-		2DDDEAE3B17705A55B69B02D117EB6E7 /* Pods-MVVM_CoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AA1BB177E8C027DF319D97066D8D2F /* Pods-MVVM_CoreData-dummy.m */; };
 		2ECB31BFE2E2D8BC963EF31F80BCD3C1 /* View+ValueChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759239AF1F491CC693D0BB7B49505C4B /* View+ValueChanged.swift */; };
 		2EF89066AF1234C9A85F49357CDD2B18 /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7515EDBA6A4F8AED38963111BE3F3B26 /* Data+Serialization.swift */; };
 		2F770B214BDE55D69C82F36A2A804B65 /* KeypathSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6C0A819CF053B71133BDA28514AC1 /* KeypathSearchable.swift */; };
@@ -96,7 +95,6 @@
 		4EB3918040530B75E38163291220E063 /* DidEndDisplayingProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF928F42D6FF11352E2B561EE4999308 /* DidEndDisplayingProviding.swift */; };
 		4EBF1D9EFF5C5EE337C870A14584B2B0 /* DotLottieCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250A12F1DBD1A08B44E50AA6AD302B6 /* DotLottieCache.swift */; };
 		4FB1C0FFC5525BC80CCE2AFDFE738379 /* BaseAnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582A17C6C243320F4A91ADACD0EDC882 /* BaseAnimationLayer.swift */; };
-		50397B7605FC36140C0F43F1852D308F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		512E48D9641A2628D8DEC8BAED43E62B /* DotLottieAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DEAB2E75ED1BC0DF831DFEB8EFBE64 /* DotLottieAnimation.swift */; };
 		52E3B1E5F58767DEE4DFD20B198C205C /* Binding+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD087FD1C48DD065DC9DFA706D7BD091 /* Binding+Map.swift */; };
 		53A4722D6E1CBE44BE78A386A4BA7784 /* DotLottieConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED56CF7BAD7C591F906BC27673D722 /* DotLottieConfiguration.swift */; };
@@ -116,6 +114,7 @@
 		618E703637852A990E610FB826F600D5 /* TrimPathNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F71AD811ECF71F5ED3FA46D50FD92D /* TrimPathNode.swift */; };
 		6272158F6D88AE21F506169A503339C4 /* KeyframeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6B98F9139FBF84FFB96E7AD2C55FD3 /* KeyframeExtensions.swift */; };
 		631B725A0E0D290FACA27122E83D6E43 /* AnyEpoxyModelProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E7F73436D1AF3FC4B196DC30826E8 /* AnyEpoxyModelProperty.swift */; };
+		657CE34FDB440B9A793B37C77D2DE316 /* Pods-Task Manager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4D1C54DE1E868A7C0C16D3547F6A86 /* Pods-Task Manager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6606B2146BE5D230D277EDC8D11312F0 /* LottieButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6204A5F9B28F811B2A3FD13B61469A49 /* LottieButton.swift */; };
 		66DC6E1F99F2B10F99B427721625F395 /* Archive+ZIP64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793155D57A117EBFC59FB30D0B3965D9 /* Archive+ZIP64.swift */; };
 		682A0BBB3EDA065143773BFB3F1A05DF /* DotLottieFileHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F841490014BCE10D7860638D74009 /* DotLottieFileHelpers.swift */; };
@@ -170,6 +169,7 @@
 		927CD7C82BF75BE7FACCD1BB65252EDF /* PreCompLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9882F057C11B3A80BBD572636D0B0C /* PreCompLayerModel.swift */; };
 		92E9FCC6F439B4F5ED216CAD9C8EE8AB /* DictionaryInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA861AAB882175DED5A631846C4D0B25 /* DictionaryInitializable.swift */; };
 		93F1AA87047E0139CBE47C25F78D3E86 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068772C90173A7FF63F82F11B2FBB2FF /* Stroke.swift */; };
+		94112467D2259B262A3A127230C1AF3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		9602FE8D815EE84C85A96BFF09B26859 /* StarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F0E4AD82B8F7AFCC731B268A85B2B /* StarAnimation.swift */; };
 		961C11A756A3B23FA0731195C7FCEA87 /* BezierPathRoundExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB72FF8014534D1B6A9E1174FF86C309 /* BezierPathRoundExtension.swift */; };
 		97B0A69C63CE6B3C27734BD97FDA098C /* EpoxySwiftUIHostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF90CFBFD90B2D1B23385B369574C9 /* EpoxySwiftUIHostingView.swift */; };
@@ -296,7 +296,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		60ADBF8ABC6C04A3A46A66BD7B56DBD6 /* PBXContainerItemProxy */ = {
+		31C46CEC4BA7D05A2A4B1FB588F0E756 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -353,8 +353,7 @@
 		1F50AA0D3AAF3303DE4A2384B3CEAD40 /* ColorValueProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorValueProvider.swift; path = Sources/Public/DynamicProperties/ValueProviders/ColorValueProvider.swift; sourceTree = "<group>"; };
 		1F79EFC181F71079CCFDB280819BC5DC /* AnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationContext.swift; path = Sources/Private/Utility/Helpers/AnimationContext.swift; sourceTree = "<group>"; };
 		1F8C15724D41585D4F89688E30714E26 /* ViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewType.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/Views/ViewType.swift; sourceTree = "<group>"; };
-		1F9E81C9C16E48E10A883E67DA695E5A /* Pods-MVVM_CoreData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVVM_CoreData.modulemap"; sourceTree = "<group>"; };
-		1FF9F7381259EF004CFC2BEFFCC751B2 /* Pods-MVVM_CoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVM_CoreData.debug.xcconfig"; sourceTree = "<group>"; };
+		2078DB8B37D2ACF1386119EB479002B2 /* Pods-Task Manager-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Task Manager-frameworks.sh"; sourceTree = "<group>"; };
 		20A9F35A65E109660A51D787058BD68B /* CombinedShapeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedShapeAnimation.swift; path = Sources/Private/CoreAnimation/Animations/CombinedShapeAnimation.swift; sourceTree = "<group>"; };
 		233A2E66915F6D5263E53579A8CE4826 /* ShapeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeAnimation.swift; path = Sources/Private/CoreAnimation/Animations/ShapeAnimation.swift; sourceTree = "<group>"; };
 		2403A3786E213AE02887433C161FB98A /* LottieView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LottieView.swift; path = Sources/Public/Animation/LottieView.swift; sourceTree = "<group>"; };
@@ -367,16 +366,17 @@
 		2A042FE97C4BB0A5F82B65A6BB4BB36F /* LottieAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LottieAnimationView.swift; path = Sources/Public/Animation/LottieAnimationView.swift; sourceTree = "<group>"; };
 		2B691D8B9E08442885DB664723844CFD /* ImageLayerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLayerModel.swift; path = Sources/Private/Model/Layers/ImageLayerModel.swift; sourceTree = "<group>"; };
 		2C8C4AD635619019B3BE63CF7AF3BCB2 /* AnimationSubview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationSubview.swift; path = Sources/Public/iOS/AnimationSubview.swift; sourceTree = "<group>"; };
+		2D6566D60F558008530FF4E2D3784C55 /* Pods-Task Manager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Task Manager-Info.plist"; sourceTree = "<group>"; };
 		2E40A10115E54320D56FD6230865B202 /* AnimatedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedButton.swift; path = Sources/Public/Controls/AnimatedButton.swift; sourceTree = "<group>"; };
 		2EC6DC49EBCB1A0A161B630CC886D108 /* RootAnimationLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootAnimationLayer.swift; path = Sources/Private/RootAnimationLayer.swift; sourceTree = "<group>"; };
 		2F71E41B813B0A454424D3CF49B7B7E7 /* LayerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerModel.swift; path = Sources/Private/Model/Layers/LayerModel.swift; sourceTree = "<group>"; };
 		2F949023FFD381D9031BF99E67A29F64 /* Marker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Marker.swift; path = Sources/Private/Model/Objects/Marker.swift; sourceTree = "<group>"; };
 		30681AF2A70E4416CA6A8628EA2E5A67 /* VectorsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VectorsExtensions.swift; path = Sources/Private/Utility/Primitives/VectorsExtensions.swift; sourceTree = "<group>"; };
 		30A5F47E9D55A6CC3142178D3F381E54 /* Diffable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Diffable.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/Diffing/Diffable.swift; sourceTree = "<group>"; };
-		316A7D1646B6B68F98CCB7E7F5CE589E /* Pods-MVVM_CoreData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVVM_CoreData-umbrella.h"; sourceTree = "<group>"; };
 		317B06FC054D82489EF0058E51B2EA2B /* Archive+WritingDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+WritingDeprecated.swift"; path = "Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+WritingDeprecated.swift"; sourceTree = "<group>"; };
 		31D8228EFF1FD2003CB0BD6C2FD7940C /* Fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fill.swift; path = Sources/Private/Model/ShapeItems/Fill.swift; sourceTree = "<group>"; };
 		31F38FA89C24421B7FC6E6431EEBC9A5 /* Vectors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vectors.swift; path = Sources/Public/Primitives/Vectors.swift; sourceTree = "<group>"; };
+		32748C0664E4E4BE6D5174D1B3A316C4 /* Pods-Task Manager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Task Manager-dummy.m"; sourceTree = "<group>"; };
 		34E1306E1ED8AAC268D97DDA0946B4C5 /* OpacityAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpacityAnimation.swift; path = Sources/Private/CoreAnimation/Animations/OpacityAnimation.swift; sourceTree = "<group>"; };
 		3550344C396AF126534802FFCF233B36 /* Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transform.swift; path = Sources/Private/Model/Objects/Transform.swift; sourceTree = "<group>"; };
 		368C44B3D5C0386DBBE674AF511AD8E8 /* NullCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NullCompositionLayer.swift; path = Sources/Private/MainThread/LayerContainers/CompLayers/NullCompositionLayer.swift; sourceTree = "<group>"; };
@@ -389,9 +389,11 @@
 		3CDB5876DE088493D8CBE7F8B3E6CB1A /* CallbackContextEpoxyModeled.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackContextEpoxyModeled.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/Model/CallbackContextEpoxyModeled.swift; sourceTree = "<group>"; };
 		3D0245B4212846C6F1A66DDEC95A3A6E /* LayerProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerProperty.swift; path = Sources/Private/CoreAnimation/Animations/LayerProperty.swift; sourceTree = "<group>"; };
 		3E51D43DD0535162659117323E7BE68B /* Archive+MemoryFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+MemoryFile.swift"; path = "Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+MemoryFile.swift"; sourceTree = "<group>"; };
+		3E5AFB3129C6C6670E6564E0ADEDAD02 /* Pods-Task Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Task Manager.release.xcconfig"; sourceTree = "<group>"; };
 		3FC4A08B2F4C9341452339593433929F /* ShapeLayerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeLayerModel.swift; path = Sources/Private/Model/Layers/ShapeLayerModel.swift; sourceTree = "<group>"; };
 		406D8B8E1171991613408E4C491D960E /* SwiftUIMeasurementContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUIMeasurementContainer.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/LayoutUtilities/SwiftUIMeasurementContainer.swift; sourceTree = "<group>"; };
 		406DC68AFB3CFC8853B059EB35B423B2 /* CALayer+fillBounds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+fillBounds.swift"; path = "Sources/Private/CoreAnimation/Extensions/CALayer+fillBounds.swift"; sourceTree = "<group>"; };
+		4156E7D46CB83CD320D279295A7A9624 /* Pods-Task Manager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Task Manager-acknowledgements.markdown"; sourceTree = "<group>"; };
 		41F76CF161FF82EC29FE90AF89D4DDAC /* CALayer+setupLayerHierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+setupLayerHierarchy.swift"; path = "Sources/Private/CoreAnimation/Layers/CALayer+setupLayerHierarchy.swift"; sourceTree = "<group>"; };
 		426A2AEB7D8A3E1E74113CE53F8BF090 /* Rectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rectangle.swift; path = Sources/Private/Model/ShapeItems/Rectangle.swift; sourceTree = "<group>"; };
 		42BC2CD8FB644E3C2B26EB0387C6EC8F /* TraitCollectionProviding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TraitCollectionProviding.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/TraitCollectionProviding.swift; sourceTree = "<group>"; };
@@ -404,7 +406,6 @@
 		48B916B7D15704D94CE0416AFCD4E4EF /* PreCompLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreCompLayer.swift; path = Sources/Private/CoreAnimation/Layers/PreCompLayer.swift; sourceTree = "<group>"; };
 		49A26EAE757537589DC77FEE23362D13 /* LottieSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LottieSwitch.swift; path = Sources/Public/Controls/LottieSwitch.swift; sourceTree = "<group>"; };
 		49C9E4F610637F7EB566905652DA276D /* EffectValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EffectValue.swift; path = Sources/Private/Model/LayerEffects/EffectValues/EffectValue.swift; sourceTree = "<group>"; };
-		4A1EE9E926BF19CA59D8C9D9914B23DF /* Pods-MVVM_CoreData-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVM_CoreData-Info.plist"; sourceTree = "<group>"; };
 		4D5971D7F2E50325731F6244BD235E77 /* DidSelectProviding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DidSelectProviding.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/DidSelectProviding.swift; sourceTree = "<group>"; };
 		4E0213347A1315F84D6A990135C53DCD /* CGColor+RGB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGColor+RGB.swift"; path = "Sources/Private/Utility/Extensions/CGColor+RGB.swift"; sourceTree = "<group>"; };
 		4E33F831EED369B1DE977DA8D85DEBDF /* SetBehaviorsProviding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SetBehaviorsProviding.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/SetBehaviorsProviding.swift; sourceTree = "<group>"; };
@@ -415,7 +416,6 @@
 		51BA97E8B5085EFFB47BC9C0B785CEA7 /* lottie-ios */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "lottie-ios"; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F71AD811ECF71F5ED3FA46D50FD92D /* TrimPathNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrimPathNode.swift; path = Sources/Private/MainThread/NodeRenderSystem/Nodes/ModifierNodes/TrimPathNode.swift; sourceTree = "<group>"; };
 		5222A0B37D4CCE6536C37C2A741B8404 /* LottieAnimationLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LottieAnimationLayer.swift; path = Sources/Public/Animation/LottieAnimationLayer.swift; sourceTree = "<group>"; };
-		52A06E67C69005DFF0B44ADE0159EC28 /* Pods-MVVM_CoreData-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVVM_CoreData-frameworks.sh"; sourceTree = "<group>"; };
 		5422C5C22D31AD34511268B24F9896C8 /* AnyNodeProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyNodeProperty.swift; path = Sources/Private/MainThread/NodeRenderSystem/NodeProperties/Protocols/AnyNodeProperty.swift; sourceTree = "<group>"; };
 		544614F57EAA3E20E657980071B79E40 /* RoundedCornersNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundedCornersNode.swift; path = Sources/Private/MainThread/NodeRenderSystem/Nodes/ModifierNodes/RoundedCornersNode.swift; sourceTree = "<group>"; };
 		55BCB99D54AF84438E734B387E969929 /* ShapeCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeCompositionLayer.swift; path = Sources/Private/MainThread/LayerContainers/CompLayers/ShapeCompositionLayer.swift; sourceTree = "<group>"; };
@@ -433,24 +433,24 @@
 		60AF8B58C64A6F94EB94A094E0D5217F /* TextDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextDocument.swift; path = Sources/Private/Model/Text/TextDocument.swift; sourceTree = "<group>"; };
 		61991267CE7F21E7579D0F48D4FA86E8 /* Archive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Archive.swift; path = Sources/Private/EmbeddedLibraries/ZipFoundation/Archive.swift; sourceTree = "<group>"; };
 		6204A5F9B28F811B2A3FD13B61469A49 /* LottieButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LottieButton.swift; path = Sources/Public/Controls/LottieButton.swift; sourceTree = "<group>"; };
-		63AA1BB177E8C027DF319D97066D8D2F /* Pods-MVVM_CoreData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVVM_CoreData-dummy.m"; sourceTree = "<group>"; };
 		64C6C0A819CF053B71133BDA28514AC1 /* KeypathSearchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeypathSearchable.swift; path = Sources/Private/MainThread/NodeRenderSystem/NodeProperties/Protocols/KeypathSearchable.swift; sourceTree = "<group>"; };
 		64CE4997B6788C8B043DCFFAC774E5C6 /* AnimationTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationTime.swift; path = Sources/Public/Primitives/AnimationTime.swift; sourceTree = "<group>"; };
 		6687085AA991C612BD1FE62416984D40 /* PointValueProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PointValueProvider.swift; path = Sources/Public/DynamicProperties/ValueProviders/PointValueProvider.swift; sourceTree = "<group>"; };
 		66BC3A1230AA3B0BEEA53D347F5FD538 /* LayerTransformNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerTransformNode.swift; path = Sources/Private/MainThread/LayerContainers/Utility/LayerTransformNode.swift; sourceTree = "<group>"; };
 		6773EBF4BD2A6F795F5D9E257E1D42DE /* FileManager+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+ZIP.swift"; path = "Sources/Private/EmbeddedLibraries/ZipFoundation/FileManager+ZIP.swift"; sourceTree = "<group>"; };
 		6916D6EEC09A40E00D18F19DD8279641 /* LRUCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LRUCache.swift; path = Sources/Private/EmbeddedLibraries/LRUCache/LRUCache.swift; sourceTree = "<group>"; };
+		6955BEED81ACF4C17F2DC8D9E3C1E802 /* Pods-Task Manager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Task Manager.modulemap"; sourceTree = "<group>"; };
 		6C00E70602DF8339B040F6544A985B1A /* LayerEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerEffect.swift; path = Sources/Private/Model/LayerEffects/LayerEffect.swift; sourceTree = "<group>"; };
 		6C41AE82E5A06D1DC7D31FA6FF416D96 /* ClassReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClassReference.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Internal/ClassReference.swift; sourceTree = "<group>"; };
 		6C641EA9BBB856FB214D01BECEA5FFD8 /* Entry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = Sources/Private/EmbeddedLibraries/ZipFoundation/Entry.swift; sourceTree = "<group>"; };
 		6CD1262982EB50B2663EC512876A7922 /* SectionedChangeset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionedChangeset.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/Diffing/SectionedChangeset.swift; sourceTree = "<group>"; };
+		6DF879AA58DE10A132041189FA4520A8 /* Pods-Task Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Task Manager.debug.xcconfig"; sourceTree = "<group>"; };
 		6E297F1A4E9A90C2E45D3913C3EE8575 /* Data+CompressionDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+CompressionDeprecated.swift"; path = "Sources/Private/EmbeddedLibraries/ZipFoundation/Data+CompressionDeprecated.swift"; sourceTree = "<group>"; };
 		6E36A4B97C63BA5A48A40946C20BD515 /* LegacyGradientFillRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegacyGradientFillRenderer.swift; path = Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/Renderables/LegacyGradientFillRenderer.swift; sourceTree = "<group>"; };
 		6E600082893E00E2F4025E8994D59442 /* SizeValueProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeValueProvider.swift; path = Sources/Public/DynamicProperties/ValueProviders/SizeValueProvider.swift; sourceTree = "<group>"; };
 		6F1E45C8195137CA8641B80EACC45A8D /* AnimationImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationImageProvider.swift; path = Sources/Public/ImageProvider/AnimationImageProvider.swift; sourceTree = "<group>"; };
 		6F23BC90801A75B4D404A32D63079317 /* GradientFillNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientFillNode.swift; path = Sources/Private/MainThread/NodeRenderSystem/Nodes/RenderNodes/GradientFillNode.swift; sourceTree = "<group>"; };
 		6FC8DDF036FBEC4E6632863A861CC851 /* Archive+Progress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Progress.swift"; path = "Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+Progress.swift"; sourceTree = "<group>"; };
-		7003A42FB051E838C31529428E5AF47B /* Pods-MVVM_CoreData */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MVVM_CoreData"; path = Pods_MVVM_CoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A5259FCF334172F1B41FF762FE84B0 /* TextAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAnimator.swift; path = Sources/Private/Model/Text/TextAnimator.swift; sourceTree = "<group>"; };
 		717017324C1B7901FEFBBA3ADA6E229E /* SwiftUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUIView.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/SwiftUIView.swift; sourceTree = "<group>"; };
 		7295CFBC7684E9446295C1895A416794 /* RepeaterLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepeaterLayer.swift; path = Sources/Private/CoreAnimation/Layers/RepeaterLayer.swift; sourceTree = "<group>"; };
@@ -467,6 +467,7 @@
 		7A805FE0C5761AE7D627969A6EAFDF73 /* ShapeTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeTransform.swift; path = Sources/Private/Model/ShapeItems/ShapeTransform.swift; sourceTree = "<group>"; };
 		7AD51CA8EED8D23D4D2DDFEB16FD391B /* PathElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathElement.swift; path = Sources/Private/Utility/Primitives/PathElement.swift; sourceTree = "<group>"; };
 		7F87FB75A36BC89CCEF3029C8E267419 /* LottieAnimationHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LottieAnimationHelpers.swift; path = Sources/Public/Animation/LottieAnimationHelpers.swift; sourceTree = "<group>"; };
+		8159BD6E17D156817B5D6492461243F5 /* Pods-Task Manager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Task Manager-acknowledgements.plist"; sourceTree = "<group>"; };
 		81BB53FE2DEADB9A8A167FBEF6EE638F /* AnimationLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationLayer.swift; path = Sources/Private/CoreAnimation/Layers/AnimationLayer.swift; sourceTree = "<group>"; };
 		840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		84564763276DB7F1E71C698CB66BBBAC /* ViewProviding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProviding.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/ViewProviding.swift; sourceTree = "<group>"; };
@@ -512,8 +513,8 @@
 		AAAF2D327ACC7D6C9945028A440C38DB /* MainThreadAnimationLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainThreadAnimationLayer.swift; path = Sources/Private/MainThread/LayerContainers/MainThreadAnimationLayer.swift; sourceTree = "<group>"; };
 		AB3F1B95D4BF1AE4EA8C4CAE77258FFD /* LottieAnimationViewInitializers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LottieAnimationViewInitializers.swift; path = Sources/Public/Animation/LottieAnimationViewInitializers.swift; sourceTree = "<group>"; };
 		AC284A237E9A01D5389A1107921FC9A9 /* AnyValueProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyValueProvider.swift; path = Sources/Public/DynamicProperties/AnyValueProvider.swift; sourceTree = "<group>"; };
-		AC557D94BE9A73A7DAF44151CA3932A6 /* Pods-MVVM_CoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVM_CoreData.release.xcconfig"; sourceTree = "<group>"; };
 		AC6FE9BD27EAA80356B0E6B696D30B8D /* TextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextLayer.swift; path = Sources/Private/CoreAnimation/Layers/TextLayer.swift; sourceTree = "<group>"; };
+		ACB1435C72BDE2B7D08D45EAD3D4CCCF /* Pods-Task Manager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Task Manager"; path = Pods_Task_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB4C5F536232A25DD95D4EC653306A1 /* AnimatorNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatorNode.swift; path = Sources/Private/MainThread/NodeRenderSystem/Protocols/AnimatorNode.swift; sourceTree = "<group>"; };
 		AEB638385CFAF9D241510E519ED5F2E2 /* CompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompositionLayer.swift; path = Sources/Private/MainThread/LayerContainers/CompLayers/CompositionLayer.swift; sourceTree = "<group>"; };
 		AFE1B2326721597FC7508136576F289C /* AnimatorNodeDebugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatorNodeDebugging.swift; path = Sources/Private/Utility/Debugging/AnimatorNodeDebugging.swift; sourceTree = "<group>"; };
@@ -530,10 +531,10 @@
 		BA1BAE9414302B14F4639ED8329224EE /* DotLottieManifest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotLottieManifest.swift; path = Sources/Private/Model/DotLottie/DotLottieManifest.swift; sourceTree = "<group>"; };
 		BB0FBC28D12C37E8C3D6B2EF3C7E0F80 /* DotLottieImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotLottieImageProvider.swift; path = Sources/Private/Model/DotLottie/DotLottieImageProvider.swift; sourceTree = "<group>"; };
 		BC4168489C59D053DD1729192F837E39 /* GroupNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupNode.swift; path = Sources/Private/MainThread/NodeRenderSystem/Nodes/RenderContainers/GroupNode.swift; sourceTree = "<group>"; };
+		BC4D1C54DE1E868A7C0C16D3547F6A86 /* Pods-Task Manager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Task Manager-umbrella.h"; sourceTree = "<group>"; };
 		BCD02C4B5DC0A78C8E2212F4C289BEFE /* AnimationKeypath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationKeypath.swift; path = Sources/Public/DynamicProperties/AnimationKeypath.swift; sourceTree = "<group>"; };
 		BE4CEBCDF13FEC50999B18A1E68AE64A /* ShapeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeLayer.swift; path = Sources/Private/CoreAnimation/Layers/ShapeLayer.swift; sourceTree = "<group>"; };
 		BEAD4955E3A7CFDF2844AC58B31D7712 /* CALayer+addAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+addAnimation.swift"; path = "Sources/Private/CoreAnimation/Animations/CALayer+addAnimation.swift"; sourceTree = "<group>"; };
-		BEB170E59A8DD2D4122C6BA1B8752DDD /* Pods-MVVM_CoreData-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVM_CoreData-acknowledgements.plist"; sourceTree = "<group>"; };
 		C250A12F1DBD1A08B44E50AA6AD302B6 /* DotLottieCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotLottieCache.swift; path = Sources/Public/DotLottie/Cache/DotLottieCache.swift; sourceTree = "<group>"; };
 		C2AD124BBB427A23C4D3B5E36E791319 /* ShapeNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeNode.swift; path = Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/ShapeNode.swift; sourceTree = "<group>"; };
 		C35C3487E161EE84973F9EAE99E5BE64 /* KeyframeData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyframeData.swift; path = Sources/Private/Model/Keyframes/KeyframeData.swift; sourceTree = "<group>"; };
@@ -563,7 +564,6 @@
 		DA07FB5A919E36E8F0330FA34BB3D285 /* MathKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MathKit.swift; path = Sources/Private/Utility/Extensions/MathKit.swift; sourceTree = "<group>"; };
 		DA6C1E055084672385878B5911E70F54 /* TransformAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformAnimations.swift; path = Sources/Private/CoreAnimation/Animations/TransformAnimations.swift; sourceTree = "<group>"; };
 		DB55DB433B797122665AA1419F551BC9 /* lottie-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lottie-ios-dummy.m"; sourceTree = "<group>"; };
-		DCB23205A7F072C3B8DB8FD18B7E524D /* Pods-MVVM_CoreData-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVVM_CoreData-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DCB2B7519EC47ABB280A605F8F45C48F /* UIViewConfiguringSwiftUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewConfiguringSwiftUIView.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/UIViewConfiguringSwiftUIView.swift; sourceTree = "<group>"; };
 		DCB81A16B12FEC43232C665006EF4601 /* EpoxySwiftUIIntrinsicContentSizeInvalidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EpoxySwiftUIIntrinsicContentSizeInvalidator.swift; path = Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/EpoxySwiftUIIntrinsicContentSizeInvalidator.swift; sourceTree = "<group>"; };
 		DD5BF0883D57B23C48626D5FB57342FE /* EpoxyableView+SwiftUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EpoxyableView+SwiftUIView.swift"; path = "Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/EpoxyableView+SwiftUIView.swift"; sourceTree = "<group>"; };
@@ -620,49 +620,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E5B0372E034F4FA493EDD19C9B91513 /* Frameworks */ = {
+		3D30A9B50A254CBC51FE2D5DE7D1691F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50397B7605FC36140C0F43F1852D308F /* Foundation.framework in Frameworks */,
+				94112467D2259B262A3A127230C1AF3C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34FA855E061CDD8C9CB2CB6C6FF15A03 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				93F2CBD1FA1D603B215FB0B12960E8F7 /* Pods-MVVM_CoreData */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5B17A230F41AD27BD23384C6CF15A5E6 /* Products */ = {
+		63D5EE168B6EF11EF1E31EB4B38B993E /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				51BA97E8B5085EFFB47BC9C0B785CEA7 /* lottie-ios */,
-				7003A42FB051E838C31529428E5AF47B /* Pods-MVVM_CoreData */,
+				ACB1435C72BDE2B7D08D45EAD3D4CCCF /* Pods-Task Manager */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93F2CBD1FA1D603B215FB0B12960E8F7 /* Pods-MVVM_CoreData */ = {
+		998FCA6592A44136DE1A9011B6B6074D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F9E81C9C16E48E10A883E67DA695E5A /* Pods-MVVM_CoreData.modulemap */,
-				DCB23205A7F072C3B8DB8FD18B7E524D /* Pods-MVVM_CoreData-acknowledgements.markdown */,
-				BEB170E59A8DD2D4122C6BA1B8752DDD /* Pods-MVVM_CoreData-acknowledgements.plist */,
-				63AA1BB177E8C027DF319D97066D8D2F /* Pods-MVVM_CoreData-dummy.m */,
-				52A06E67C69005DFF0B44ADE0159EC28 /* Pods-MVVM_CoreData-frameworks.sh */,
-				4A1EE9E926BF19CA59D8C9D9914B23DF /* Pods-MVVM_CoreData-Info.plist */,
-				316A7D1646B6B68F98CCB7E7F5CE589E /* Pods-MVVM_CoreData-umbrella.h */,
-				1FF9F7381259EF004CFC2BEFFCC751B2 /* Pods-MVVM_CoreData.debug.xcconfig */,
-				AC557D94BE9A73A7DAF44151CA3932A6 /* Pods-MVVM_CoreData.release.xcconfig */,
+				EF546469CCCAC3AC0181493BDAD12FC9 /* Pods-Task Manager */,
 			);
-			name = "Pods-MVVM_CoreData";
-			path = "Target Support Files/Pods-MVVM_CoreData";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		9AD59DC91627E64FCB3CB3DF23151355 /* Pods */ = {
@@ -973,9 +956,26 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				9AD59DC91627E64FCB3CB3DF23151355 /* Pods */,
-				5B17A230F41AD27BD23384C6CF15A5E6 /* Products */,
-				34FA855E061CDD8C9CB2CB6C6FF15A03 /* Targets Support Files */,
+				63D5EE168B6EF11EF1E31EB4B38B993E /* Products */,
+				998FCA6592A44136DE1A9011B6B6074D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		EF546469CCCAC3AC0181493BDAD12FC9 /* Pods-Task Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6955BEED81ACF4C17F2DC8D9E3C1E802 /* Pods-Task Manager.modulemap */,
+				4156E7D46CB83CD320D279295A7A9624 /* Pods-Task Manager-acknowledgements.markdown */,
+				8159BD6E17D156817B5D6492461243F5 /* Pods-Task Manager-acknowledgements.plist */,
+				32748C0664E4E4BE6D5174D1B3A316C4 /* Pods-Task Manager-dummy.m */,
+				2078DB8B37D2ACF1386119EB479002B2 /* Pods-Task Manager-frameworks.sh */,
+				2D6566D60F558008530FF4E2D3784C55 /* Pods-Task Manager-Info.plist */,
+				BC4D1C54DE1E868A7C0C16D3547F6A86 /* Pods-Task Manager-umbrella.h */,
+				6DF879AA58DE10A132041189FA4520A8 /* Pods-Task Manager.debug.xcconfig */,
+				3E5AFB3129C6C6670E6564E0ADEDAD02 /* Pods-Task Manager.release.xcconfig */,
+			);
+			name = "Pods-Task Manager";
+			path = "Target Support Files/Pods-Task Manager";
 			sourceTree = "<group>";
 		};
 		F07C860E5E957B08629B7FA91035598B /* Support Files */ = {
@@ -1007,11 +1007,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3741ABCF2518A836C81345624ACA16BE /* Headers */ = {
+		19FB92634A58FB6A08B5E210A9ACA03B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17A3443FD658876A3A4E50627C493CA6 /* Pods-MVVM_CoreData-umbrella.h in Headers */,
+				657CE34FDB440B9A793B37C77D2DE316 /* Pods-Task Manager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1044,23 +1044,23 @@
 			productReference = 51BA97E8B5085EFFB47BC9C0B785CEA7 /* lottie-ios */;
 			productType = "com.apple.product-type.framework";
 		};
-		6387D680472B4CFEFBB042C25BF6F7C7 /* Pods-MVVM_CoreData */ = {
+		D96C779B78A6D5992FAD86B96F32E881 /* Pods-Task Manager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 770863231905962114A7158CDD9AB332 /* Build configuration list for PBXNativeTarget "Pods-MVVM_CoreData" */;
+			buildConfigurationList = 7213B3FA32A14A93C16A7BDDEC99DCC6 /* Build configuration list for PBXNativeTarget "Pods-Task Manager" */;
 			buildPhases = (
-				3741ABCF2518A836C81345624ACA16BE /* Headers */,
-				35AF41D15E92C712708A2C884FD63E05 /* Sources */,
-				3E5B0372E034F4FA493EDD19C9B91513 /* Frameworks */,
-				9D981558171A712D7FED92F2DC7BE27D /* Resources */,
+				19FB92634A58FB6A08B5E210A9ACA03B /* Headers */,
+				3616F385200EF55DA655F593EDDF06B9 /* Sources */,
+				3D30A9B50A254CBC51FE2D5DE7D1691F /* Frameworks */,
+				41A1932F85B2256B321BB7662FC6A03B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B69B3B533FC1358086311C5DD2CF48DC /* PBXTargetDependency */,
+				E87058BE435E17AF8A198497A9BEB961 /* PBXTargetDependency */,
 			);
-			name = "Pods-MVVM_CoreData";
-			productName = Pods_MVVM_CoreData;
-			productReference = 7003A42FB051E838C31529428E5AF47B /* Pods-MVVM_CoreData */;
+			name = "Pods-Task Manager";
+			productName = Pods_Task_Manager;
+			productReference = ACB1435C72BDE2B7D08D45EAD3D4CCCF /* Pods-Task Manager */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1081,18 +1081,18 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5B17A230F41AD27BD23384C6CF15A5E6 /* Products */;
+			productRefGroup = 63D5EE168B6EF11EF1E31EB4B38B993E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */,
-				6387D680472B4CFEFBB042C25BF6F7C7 /* Pods-MVVM_CoreData */,
+				D96C779B78A6D5992FAD86B96F32E881 /* Pods-Task Manager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9D981558171A712D7FED92F2DC7BE27D /* Resources */ = {
+		41A1932F85B2256B321BB7662FC6A03B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1109,11 +1109,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35AF41D15E92C712708A2C884FD63E05 /* Sources */ = {
+		3616F385200EF55DA655F593EDDF06B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DDDEAE3B17705A55B69B02D117EB6E7 /* Pods-MVVM_CoreData-dummy.m in Sources */,
+				1B926C9A6A7763225FADAA6B2BA10706 /* Pods-Task Manager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1405,11 +1405,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B69B3B533FC1358086311C5DD2CF48DC /* PBXTargetDependency */ = {
+		E87058BE435E17AF8A198497A9BEB961 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "lottie-ios";
 			target = 0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */;
-			targetProxy = 60ADBF8ABC6C04A3A46A66BD7B56DBD6 /* PBXContainerItemProxy */;
+			targetProxy = 31C46CEC4BA7D05A2A4B1FB588F0E756 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1551,6 +1551,43 @@
 			};
 			name = Release;
 		};
+		94E20C172927EB3E5FB22ED3FFD44F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF879AA58DE10A132041189FA4520A8 /* Pods-Task Manager.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Task Manager/Pods-Task Manager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Task Manager/Pods-Task Manager.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1613,9 +1650,9 @@
 			};
 			name = Release;
 		};
-		AAC7D5C568D21A9D5724DC89CE4BBC47 /* Release */ = {
+		FEF93B3EBEC966D39C53E1B20737288E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC557D94BE9A73A7DAF44151CA3932A6 /* Pods-MVVM_CoreData.release.xcconfig */;
+			baseConfigurationReference = 3E5AFB3129C6C6670E6564E0ADEDAD02 /* Pods-Task Manager.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1627,7 +1664,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MVVM_CoreData/Pods-MVVM_CoreData-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Task Manager/Pods-Task Manager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1636,7 +1673,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MVVM_CoreData/Pods-MVVM_CoreData.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Task Manager/Pods-Task Manager.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1650,43 +1687,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		D6C00BFFD4AFAC245E522A2EED312E2C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FF9F7381259EF004CFC2BEFFCC751B2 /* Pods-MVVM_CoreData.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MVVM_CoreData/Pods-MVVM_CoreData-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MVVM_CoreData/Pods-MVVM_CoreData.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1709,11 +1709,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		770863231905962114A7158CDD9AB332 /* Build configuration list for PBXNativeTarget "Pods-MVVM_CoreData" */ = {
+		7213B3FA32A14A93C16A7BDDEC99DCC6 /* Build configuration list for PBXNativeTarget "Pods-Task Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6C00BFFD4AFAC245E522A2EED312E2C /* Debug */,
-				AAC7D5C568D21A9D5724DC89CE4BBC47 /* Release */,
+				94E20C172927EB3E5FB22ED3FFD44F1E /* Debug */,
+				FEF93B3EBEC966D39C53E1B20737288E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

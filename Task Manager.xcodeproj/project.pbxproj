@@ -23,7 +23,7 @@
 		11C380472B59FF4B00A19A5D /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C380462B59FF4B00A19A5D /* TaskListViewModel.swift */; };
 		11C380492B5A063C00A19A5D /* AddNewTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C380482B5A063C00A19A5D /* AddNewTaskViewModel.swift */; };
 		11C3804B2B5A072E00A19A5D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C3804A2B5A072E00A19A5D /* CoreDataManager.swift */; };
-		A1B163CDD372E2B5DF74FB6F /* Pods_MVVM_CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F88783B017EDC369663C71 /* Pods_MVVM_CoreData.framework */; };
+		D6FC2850DDB621A927475D13 /* Pods_Task_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43463D6FDCF5C97480504744 /* Pods_Task_Manager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,9 +45,9 @@
 		11C380462B59FF4B00A19A5D /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
 		11C380482B5A063C00A19A5D /* AddNewTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTaskViewModel.swift; sourceTree = "<group>"; };
 		11C3804A2B5A072E00A19A5D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		63F88783B017EDC369663C71 /* Pods_MVVM_CoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_CoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66861B04096F30FE7C3ECF61 /* Pods-MVVM_CoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_CoreData.release.xcconfig"; path = "Target Support Files/Pods-MVVM_CoreData/Pods-MVVM_CoreData.release.xcconfig"; sourceTree = "<group>"; };
-		877F717859325EDE872219F5 /* Pods-MVVM_CoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_CoreData.debug.xcconfig"; path = "Target Support Files/Pods-MVVM_CoreData/Pods-MVVM_CoreData.debug.xcconfig"; sourceTree = "<group>"; };
+		20F0827F15A8038B4F12CF65 /* Pods-Task Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task Manager.release.xcconfig"; path = "Target Support Files/Pods-Task Manager/Pods-Task Manager.release.xcconfig"; sourceTree = "<group>"; };
+		43463D6FDCF5C97480504744 /* Pods_Task_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1786AFB896BBDD46CCC0C0 /* Pods-Task Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task Manager.debug.xcconfig"; path = "Target Support Files/Pods-Task Manager/Pods-Task Manager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B163CDD372E2B5DF74FB6F /* Pods_MVVM_CoreData.framework in Frameworks */,
+				D6FC2850DDB621A927475D13 /* Pods_Task_Manager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,8 +155,8 @@
 		24F42BDD5C1B3E28DE21A864 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				877F717859325EDE872219F5 /* Pods-MVVM_CoreData.debug.xcconfig */,
-				66861B04096F30FE7C3ECF61 /* Pods-MVVM_CoreData.release.xcconfig */,
+				AC1786AFB896BBDD46CCC0C0 /* Pods-Task Manager.debug.xcconfig */,
+				20F0827F15A8038B4F12CF65 /* Pods-Task Manager.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 		BDACD7B0D32827F58685F2F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63F88783B017EDC369663C71 /* Pods_MVVM_CoreData.framework */,
+				43463D6FDCF5C97480504744 /* Pods_Task_Manager.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -243,15 +243,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MVVM_CoreData/Pods-MVVM_CoreData-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Task Manager/Pods-Task Manager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MVVM_CoreData/Pods-MVVM_CoreData-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Task Manager/Pods-Task Manager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVM_CoreData/Pods-MVVM_CoreData-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Task Manager/Pods-Task Manager-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		495D1EC96FEC32A918B1CF9E /* [CP] Check Pods Manifest.lock */ = {
@@ -269,7 +269,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MVVM_CoreData-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Task Manager-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -435,7 +435,7 @@
 		};
 		1159E6292B58F816003AFB74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 877F717859325EDE872219F5 /* Pods-MVVM_CoreData.debug.xcconfig */;
+			baseConfigurationReference = AC1786AFB896BBDD46CCC0C0 /* Pods-Task Manager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,7 +464,7 @@
 		};
 		1159E62A2B58F816003AFB74 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66861B04096F30FE7C3ECF61 /* Pods-MVVM_CoreData.release.xcconfig */;
+			baseConfigurationReference = 20F0827F15A8038B4F12CF65 /* Pods-Task Manager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

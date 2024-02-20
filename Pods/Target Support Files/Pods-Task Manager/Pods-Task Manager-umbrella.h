@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_MVVM_CoreDataVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_MVVM_CoreDataVersionString[];
+FOUNDATION_EXPORT double Pods_Task_ManagerVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Task_ManagerVersionString[];
 
